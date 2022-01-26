@@ -1,0 +1,56 @@
+/* RESPONSIVE STYLE START */
+
+/*RESPONSIVE*/
+@media (min-width: 320px) and (max-width: 480px) {
+	.hamburger{
+		width: 45px;height: 35px;
+		top: 15px;
+		right: 15px;
+	}
+	.hamburger-box{
+		margin: 5px 7px;
+	}
+	.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
+		width: 30px !important;
+	}
+	nav .ease-right{
+		width: 100%;
+	}
+	nav .ease-right ul{
+	margin-top: 10px;
+	}
+	.book-btn{
+		top: 15px;
+		left: 15px;
+	}
+	.book-btn button{
+		padding: 5px 9px;
+		font-size: 0.9rem;
+	}
+	.homeslider .slider-content .slider-text h5{
+		font-size: 1rem;
+	}
+	.homeslider .slider-content .slider-text h5 span{
+		font-size: 1.7rem;
+	}
+	.homeslider .slider-content .slider-text h5 a{
+		font-size: 1.8rem;
+	}
+	.about .img-height{
+		height: auto;
+	}
+	#service,#about{
+		margin-top: 40px; 
+	}
+	.cell{
+		margin: 20px auto;
+	}
+}
+@media (min-width: 481px) and (max-width: 768px) {
+	  .pack-content img{
+	  	height: 130px;
+	  }
+	  .pack-content h4{
+	  	font-size: 1rem;
+	  }
+}
